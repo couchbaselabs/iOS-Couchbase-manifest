@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="couchbaselabs"
+           fetch="git://github.com/couchbaselabs/"
+           review="review.membase.org" />
+
+  <default revision="master" remote="couchbaselabs" />
+
+  <project path="dependencies/couchdb" name="couchdb" revision="emonk-1.1"/>
+  <project path="dependencies/iMonkey" name="iMonkey"/>
+  <project path="dependencies/iErl14" name="iErl14"/>
+  <project path="dependencies/ios-openssl" name="ios-openssl"/>
+
+</manifest>
