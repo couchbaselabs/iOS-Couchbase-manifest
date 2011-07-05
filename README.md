@@ -9,7 +9,7 @@
 
     $ mkdir mobile-couchbase-ios
     $ cd mobile-couchbase-ios
-    $ repo init -u git@github.com:couchbaselabs/mobile-couchbase-ios.git
+    $ repo init -u git@github.com:couchbaselabs/iOS-Couchbase-manifest
     $ repo sync
 
 ## Build

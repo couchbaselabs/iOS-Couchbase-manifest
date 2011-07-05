@@ -7,9 +7,9 @@
 
   <default revision="master" remote="couchbaselabs" />
 
-  <project path="dependencies/couchdb" name="couchdb" revision="emonk-1.1"/>
-  <project path="dependencies/iMonkey" name="iMonkey"/>
-  <project path="dependencies/iErl14" name="iErl14"/>
-  <project path="dependencies/ios-openssl" name="ios-openssl"/>
+  <project path="vendor/couchdb" name="couchdb" revision="emonk-1.1"/>
+  <project path="vendor/iMonkey" name="iMonkey"/>
+  <project path="vendor/iErl14" name="iErl14"/>
+  <project path="vendor/ios-openssl" name="ios-openssl"/>
 
 </manifest>
