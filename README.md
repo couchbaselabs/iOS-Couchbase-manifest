@@ -7,8 +7,8 @@
 
 ## Clone the Manifest
 
-    $ mkdir mobile-couchbase-ios
-    $ cd mobile-couchbase-ios
+    $ mkdir iOS-Couchbase-repo
+    $ cd iOS-Couchbase-repo
     $ repo init -u git@github.com:couchbaselabs/iOS-Couchbase-manifest.git
     $ repo sync
 
