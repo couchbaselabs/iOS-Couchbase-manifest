@@ -11,6 +11,6 @@
   <project path="vendor/iMonkey" name="iMonkey"/>
   <project path="vendor/iErl14" name="iErl14"/>
   <project path="vendor/ios-openssl" name="ios-openssl"/>
-  <project path="vendor/iOS-Couchbase" name="iOS-Couchbase"/>
+  <project path="CouchbaseMobile" name="iOS-Couchbase" revision="for_repo"/>
 
 </manifest>
