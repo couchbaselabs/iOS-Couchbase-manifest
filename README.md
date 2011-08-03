@@ -14,4 +14,4 @@
 
 ## Build
 
-See the instructions in vendor/iOS-Couchbase.
+See the instructions in the `CouchbaseMobile` directory.
