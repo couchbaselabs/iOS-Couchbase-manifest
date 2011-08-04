@@ -5,9 +5,15 @@
            fetch="git://github.com/couchbaselabs/"
            review="review.couchbase.org" />
 
+  <remote  name="couchbase"
+           fetch="git://github.com/couchbase/"
+           review="review.couchbase.org" />
+
   <default revision="master" remote="couchbaselabs" />
 
-  <project path="vendor/couchdb" name="couchdb" revision="emonk-preview-ios"/>
+  <project path="vendor/couchdb" name="couchdb" remote="couchbase"
+           revision="emonk-preview-ios"/>
+
   <project path="vendor/iMonkey" name="iMonkey"/>
   <project path="vendor/iErl14" name="iErl14"/>
   <project path="vendor/ios-openssl" name="ios-openssl"/>
