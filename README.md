@@ -1,4 +1,6 @@
-# Building With Repo
+# Building And Contributing To Couchbase Mobile For iOS
+
+This repository contains the "manifest" for Couchbase Mobile for iOS, which is simply an XML file that instructs the "repo" tool where to find the multiple Git repositories containing the source code, and where to send patches to the Gerrit tool. If you want to build Couchbase Mobile from source, or make contributions, these instructions will get you started.
 
 ## Get The "Repo" Tool
 
