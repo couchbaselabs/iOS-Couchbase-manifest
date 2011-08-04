@@ -14,9 +14,10 @@
   <project path="vendor/couchdb" name="couchdb" remote="couchbase"
            revision="emonk-preview-ios"/>
 
+  <project path="CouchbaseMobile" name="iOS-Couchbase" remote="couchbase"/>
+
   <project path="vendor/iMonkey" name="iMonkey"/>
   <project path="vendor/iErl14" name="iErl14"/>
   <project path="vendor/ios-openssl" name="ios-openssl"/>
-  <project path="CouchbaseMobile" name="iOS-Couchbase" revision="for_repo"/>
 
 </manifest>
