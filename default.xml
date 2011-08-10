@@ -17,7 +17,7 @@
   <project path="CouchbaseMobile" name="iOS-Couchbase" remote="couchbase"/>
 
   <project path="vendor/iMonkey" name="iMonkey"/>
-  <project path="vendor/iErl14" name="iErl14"/>
+  <project path="vendor/iErl14" name="iErl" remote="couchbase" />
   <project path="vendor/ios-openssl" name="ios-openssl"/>
 
 </manifest>
