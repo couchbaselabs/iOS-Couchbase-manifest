@@ -6,7 +6,7 @@ This repository contains the "manifest" for Couchbase Mobile for iOS, which is s
 
 [Repo][1] is a tool developed for the Android build system for managing sets of related Git repositories and submitting patches [for review][2]. It's a single file that's easy to install:
 
-    $ curl http://android.git.kernel.org/repo > ~/bin/repo
+    $ curl http://git-repo.googlecode.com/files/repo-1.12 > ~/bin/repo
     $ chmod a+x ~/bin/repo
 
 (This assumes `~/bin` already exists and is in your shell search path. If not, you can add it, or you can download `repo` somewhere else that's already in your `$PATH`.)
