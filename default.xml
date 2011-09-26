@@ -11,6 +11,9 @@
 
   <default revision="master" remote="couchbaselabs" />
 
+  <project path="vendor/geocouch" name="geocouch" remote="couchbaselabs"
+           revision="emonk"/>
+
   <project path="vendor/couchdb" name="couchdb" remote="couchbase"
            revision="emonk-preview-ios"/>
 
