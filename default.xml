@@ -21,6 +21,8 @@
 
   <project path="CouchCocoa" name="CouchCocoa"/>
 
+  <project path="WorkerBee" name="iOS-WorkerBee"/>
+
   <project path="vendor/iMonkey" name="iMonkey"/>
   <project path="vendor/iErl14" name="iErl" remote="couchbase" />
   <project path="vendor/ios-openssl" name="ios-openssl"/>
