@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://github.com/couchbase/" name="couchbase" review="review.couchbase.org"/>
+  <remote fetch="git://github.com/couchbaselabs/" name="couchbaselabs" review="review.couchbase.org"/>
+  
+  <default remote="couchbase" revision="master"/>
+  
+  <project name="CouchCocoa" remote="couchbaselabs" revision="af32d25174d366ce6deb945b58df4b8f59fd5f2a"/>
+  <project name="couchdb" path="vendor/couchdb" revision="8ea7a75137c81419e19922fc4cf3a7338af670e1"/>
+  <project name="geocouch" path="vendor/geocouch" revision="1cc3251fecd75ffaae32c509716f9415fb6c5a0d"/>
+  <project name="iErl" path="vendor/iErl14" revision="f44a7d7b8333b73e2ae274d4342bc2dca9cfc7b9"/>
+  <project name="iMonkey" path="vendor/iMonkey" remote="couchbaselabs" revision="6b8a50fc84ff7ca9525786066e40a0afd7f5aa40"/>
+  <project name="iOS-Couchbase" path="CouchbaseMobile" revision="82857f7ed346ec08ceb072c5b66fafad122b85a1"/>
+  <project name="iOS-WorkerBee" path="WorkerBee" revision="c598549e11a7a1a8ce8e8a9abbf5e4833a6ec022"/>
+  <project name="ios-openssl" path="vendor/ios-openssl" remote="couchbaselabs" revision="13d411c8302c20b82d8b56f8631897138556ccad"/>
+</manifest>
+
