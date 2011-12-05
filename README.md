@@ -17,7 +17,7 @@ Repo's help system works like git's. Type `repo help` to see a list of commands,
 
     $ mkdir iOS-Couchbase
     $ cd iOS-Couchbase
-    $ repo init -u git@github.com:couchbaselabs/iOS-Couchbase-manifest.git
+    $ repo init -u git://github.com/couchbaselabs/iOS-Couchbase-manifest.git
     $ repo sync
 
 ## Build
